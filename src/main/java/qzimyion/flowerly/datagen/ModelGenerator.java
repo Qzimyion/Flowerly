@@ -14,7 +14,7 @@ public class ModelGenerator extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-        blockStateModelGenerator.registerFlowerPotPlant(Blocks.WHEAT, ModBlocks.POTTED_WHEAT, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(Blocks.WHEAT, ModBlocks.POTTED_WHEAT, BlockStateModelGenerator.TintType.TINTED);
     }
 
     @Override

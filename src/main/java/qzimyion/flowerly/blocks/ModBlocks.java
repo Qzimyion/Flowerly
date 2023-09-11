@@ -12,7 +12,7 @@ import qzimyion.flowerly.FlowerlyMod;
 public class ModBlocks {
 
     //Vanilla plant pots
-    public static final Block POTTED_WHEAT = new FlowerPotBlock(Blocks.WHEAT,FabricBlockSettings.copyOf(Blocks.POTTED_BAMBOO).nonOpaque());
+    public static final Block POTTED_WHEAT = new FlowerPotBlock(Blocks.WHEAT, FabricBlockSettings.copyOf(Blocks.POTTED_BAMBOO).nonOpaque());
 
     public static void registerBlocks(){
         //Block registry
